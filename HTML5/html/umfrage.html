@@ -1,1 +1,61 @@
-<!-- DIE UMFRAGE -->
+<!doctype html>
+<html lang="en">
+		<head>
+			<meta charset="utf-8">
+			<title>Webprogrammierung Blog</title>
+		</head>
+		<body>
+				<header>
+					<h1>Webprogrammierung</h1>
+						<nav>
+							<ul>
+								<li><a href="blog.html">home</a></li>
+								<li><a href="umfrage.html">survey</a></li>
+								<li><a href="about.html">about</a></li>
+							</ul>
+						</nav>
+				</header>
+			<section>
+				<h4>Vorlesung beurteilen: </h4>
+				<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+					<fieldset>
+						<legend>Name</legend>
+						<label for="firstname">first name:</label><br />
+						<input id="firstname" class="input" name="firstname" type="text" value="" size="30" /><br />
+						<label for="lastname">last name:</label><br />
+						<input id="lastname" class="input" name="lastname" type="text" value="" size="30" /><br />
+					</fieldset>
+					<fieldset>
+						<legend>Email</legend>
+						<label for="email">Your email:</label><br />
+						<input id="email" class="input" name="email" type="email" value="" size="30" /><br />
+					</fieldset>
+					<fieldset>
+						<legend>Telefon</legend>
+						<label for="telefon">Your mobil-number:</label><br />
+						<input id="telefon" class="input" name="telefon" type="tel" value="" size="30" /><br />
+					</fieldset>
+					<fieldset>
+						<legend>Message</legend>
+						<label for="message">Your message:</label><br />
+						<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+					</fieldset>
+					<fieldset>
+					<legend>Rating</legend>
+						<label>rating ! (1 is the worst and 5 the best)</label>
+						<label for="1">1</label>
+						<input type="radio"	name="rating" id="1">
+						<label for="2">2</label>
+						<input type="radio" name="rating" id="2">
+						<label for="3">3</label>
+						<input type="radio" name="rating" id="3">
+						<label for="4">4</label>
+						<input type="radio" name="rating" id="4">
+						<label for="5">5</label>
+						<input type="radio" name="rating" id="5">
+					</fieldset>
+						<input id="submit_button" type="submit" value="Send email" />
+				</form>
+			</section>			
+		</body>
+</html>

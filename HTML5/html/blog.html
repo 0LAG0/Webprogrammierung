@@ -1,17 +1,56 @@
-<!DOCTYPE html>
-<html lang="de">
-	<head>
-        <!-- METADATEN -->
-        <meta charset="utf-8">
-        <title>GWP</title>
-	</head>
-	<body>
-        <!-- NUTZDATEN -->
-        <!-- h1-h6 = header, p for text -->
-        <h1>HTW:GWP</h1>
-        <section>
-            <h2>Section 1</h2>
-            <p>Hallo Web!</p>
-        </section>
-	</body>
+<!doctype html>
+<html lang="en">
+		<head>
+			<meta charset="utf-8">
+			<title>Webprogrammierung Blog</title>
+		</head>
+		<body>
+				<header>
+					<h1>Webprogrammierung</h1>
+						<nav>
+							<ul>
+								<li><a href="blog.html">home</a></li>
+								<li><a href="umfrage.html">survey</a></li>
+								<li><a href="about.html">about</a></li>
+							</ul>
+						</nav>
+				</header>
+			<section>
+			<h4>POSTS: </h4>
+					<article>
+						<header>
+							<h2>Vorlesung und Übung Nr.1 Grundlagen Webprogrammierung</h2>
+							<p>Posted by: Jakob Lagaly</p>
+							<time datetime="2013-12-24T20:00:00">Post posted: Friday 2013-12-24 20:00:00</time>
+						</header>
+							<article>
+									<h2>-Sunday-</h2>
+									<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, 
+									sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+									Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+									At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+									Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+									At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.   
+									Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero 
+									eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet.</p>
+							</article>
+						<h2>Comments:</h2>
+							<article>
+								<h3>User123</h3>
+								<time datetime="2013-12-24T20:00:00">Comment posted: 2013-12-24 20:00:00</time>
+								<p>this was easy</p>
+							</article>
+					</article>
+			</section>
+			
+			<form action="meinSkript.php" method="post" >
+				<h2>MAKE A POST:</h2>
+				<label for="title">Titel:</label>
+				<textarea id="title" maxlength="10" rows="5" cols="25"></textarea>
+				<label for="post">Post:</label>
+				<textarea id="post" maxlength="10" rows="5" cols="25"></textarea>
+				<input type="submit">
+				<input type="reset">
+			</form>
+		</body>
 </html>
