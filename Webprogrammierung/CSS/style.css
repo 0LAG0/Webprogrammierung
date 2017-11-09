@@ -18,9 +18,6 @@ li a, [type="submit"], [type="reset"] {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
-
-[type="submit"], [type="reset"] {
     background-color: #333
 }
 
@@ -87,7 +84,8 @@ p {
     margin-right: 2%;
     margin-left: 2%;
     font-size: 0.8em;
-
+}
+    
 header img{
 	width:10%;
     height: auto;
@@ -105,9 +103,14 @@ header h1{
 }
   
 fieldset, div {
-    display: inline-block;
+    display: block;
+    border: 0;
 }
 
-[name="lastname"], [for="lastname"] {
+[id="rating] {
+
+}
+
+div {
     display: inline-block;
 }
