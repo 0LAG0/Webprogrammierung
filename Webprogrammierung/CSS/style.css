@@ -1,7 +1,4 @@
-*{
-	margin: 0px;
-	padding: 0px;
-}
+
 
 ul {
     list-style-type: none;
@@ -30,6 +27,7 @@ li a:hover:not(.active) {
 .active {
     background-color: #111;
 }
+
 
 section>h2 {
     font-size: 1.5em;
@@ -81,4 +79,19 @@ p {
     margin-right: 2%;
     margin-left: 2%;
     font-size: 0.8em;
+
+header img{
+	width:10%;
+    height: auto;
+	vertical-align: middle;
+}
+
+header h1{
+	display: inline;
+	font-size: 4vw;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+	text-shadow: #808080 5px 5px 5px;
+	margin-left: 3%;
+	margin-right: 4%;
+
 }
