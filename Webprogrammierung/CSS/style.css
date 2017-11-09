@@ -27,3 +27,17 @@ li a:hover:not(.active) {
     background-color: #111;
 }
 
+header img{
+	width:10%;
+    height: auto;
+	vertical-align: middle;
+}
+
+header h1{
+	display: inline;
+	font-size: 4vw;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+	text-shadow: #808080 5px 5px 5px;
+	margin-left: 3%;
+	margin-right: 4%;
+}
