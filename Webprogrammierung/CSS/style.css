@@ -20,9 +20,6 @@ li a, [type="submit"], [type="reset"] {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
-
-[type="submit"], [type="reset"] {
     background-color: #333
 }
 
@@ -40,10 +37,15 @@ li a:hover:not(.active), .active {
 }
 
 fieldset, div {
-    display: inline-block;
+    display: block;
+    border: 0;
 }
 
-[name="lastname"], [for="lastname"] {
+[id="rating] {
+
+}
+
+div {
     display: inline-block;
 }
 
