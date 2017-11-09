@@ -26,6 +26,14 @@ li a:hover:not(.active) {
     background-color: #111;
 }
 
+
+[for="firstname"], [name="firstname"] {
+    display: inline;
+}
+
+[name="lastname"], [for="lastname"] {
+    display: inline-block;
+}
 .active {
     background-color: #111;
 }
