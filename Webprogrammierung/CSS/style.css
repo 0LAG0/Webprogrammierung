@@ -12,8 +12,8 @@ li {
     float: left;
 }
 
-li a {
-    display: block;
+li a, [type="submit"], [type="reset"] {
+    display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -21,10 +21,19 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+    background-color: #333
 }
 
-.active {
+[type="radio"] {
+    display: inline-block;
+    padding: 14px 16px;
+}
+
+[id="message"] {
+    display: block;
+}
+
+li a:hover:not(.active), .active {
     background-color: #111;
 }
 
@@ -95,4 +104,24 @@ header h1{
 	margin-left: 3%;
 	margin-right: 4%;
 
+}
+  
+fieldset, div {
+    display: block;
+    border: 0;
+}
+
+[id="rating"] {
+
+}
+
+div {
+    display: inline-block;
+}
+
+h4 {
+    font-size: 1.5em;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 2%;
 }
