@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="de">
+	<head>
+		<meta charset="utf-8">
+		<title>AJA - All Jokes Aside - Webprogramming</title>
+        <link type ="text/css" rel="stylesheet" href="../CSS/normalize.css" />
+		<link type ="text/css" rel="stylesheet" href="../CSS/style.css" />
+	</head>
+	<body>
+		<header>
+			<img src="images\website-icon-8.png" alt="logo">
+			<h1>AJA - All Jokes Aside - Webprogramming</h1>
+			<nav>
+				<ul>
+					<li><a class="active" href="index.html">home</a></li>
+					<li><a href="umfrage.html">survey</a></li>
+					<li><a href="about.html">about</a></li>
+				</ul>
+			</nav>
+		</header>
+		<section>
+			<h4>POSTS: </h4>
+			<article class="blogpost">
+				<header>
+					<h2>Vorlesung und Übung Nr.1 Grundlagen Webprogrammierung</h2>
+					<p>Posted by: Jakob Lagaly</p>
+					<time datetime="2013-12-24T20:00:00">Post posted: Friday 2013-12-24 20:00:00</time>
+				</header>
+				<h2>Einführung und Organisatorisches + ein wenig HTML</h2>
+				<p>Wir haben heute Organisatorisches besprochen und ein wenig HTML gemacht.</p>
+			</article>
+            
+            <label for="toggle-1"> Comments: </label>
+            <input type="checkbox" id="toggle-1">
+            
+			<article class="comments" id="toggle1">
+				<h3>User123</h3>
+				<time datetime="2013-12-24T20:00:00">Comment posted: 2013-12-24 20:00:00</time>
+				<p>this was easy</p>
+			</article>
+            
+			<article class="blogpost">
+				<header>
+					<h2>Vorlesung und Übung Nr.2 Grundlagen Webprogrammierung</h2>
+					<p>Posted by: Jakob Lagaly</p>
+					<time datetime="2013-12-24T20:00:00">Post posted: Friday 2013-12-24 20:00:00</time>
+				</header>
+				<h2>HTML Syntax und Semantik</h2>
+				<p>Die Vorlesung drehte sich um Grundlagen der HTML-Syntax (die Grammatik) sowie der Semantik (die Lehre der Bedeutung). Es ging darum, was Elemente sind und wie sie geschrieben werden - dabei gibt es normale Elemente die geöffnet und geschlossen werden, und Standalone-Elemente. Außerdem sprachen wir über Attribute, und wie in HTML Formulare angelegt und dargestellt werden.</p>
+				<img src="images\grafik_1.png" alt="html">
+				<img src="images\grafik_2.png" alt="html_2">
+			</article>
+            
+            <label for="toggle-2"> Comments: </label>
+            <input type="checkbox" id="toggle-2">
+            
+			<article class="comments" id="toggle2">
+				<h3>User123</h3>
+				<time datetime="2013-12-24T20:00:00">Comment posted: 2013-12-24 20:00:00</time>
+				<p>this was not so easy</p>
+			</article>
+            
+			<article class="blogpost">
+				<header>
+					<h2>Vorlesung und Übung Nr.3 Grundlagen Webprogrammierung</h2>
+					<p>Posted by: Adrian</p>
+					<time datetime="2013-12-24T20:00:00">Post posted: Friday 2017-10-26 11:00:00</time>
+				</header>
+				<h2>CSS Hierarchie der Elemente und Selektoren</h2>
+				<p>In CSS werden Gestaltungsregeln für eine Website festgelegt. Dabei ist zu beachten, dass jeder Browser ein Browser-Stylesheet mitbringt. Dieses definiert grundsätzliche, grobe Gestaltungsregeln wie bspw. die Größe von h1-Elementen oder die Abstände zwischen Absätzen. Wir schreiben mithilfe von CSS ein Autoren-Stylesheet, das erst nach dem Browser-Stylesheet abgearbeitet wird.</p>
+                <p>
+                Außerdem wurde in der heutigen Vorlesung die Bedeutung und die Hierarchie von CSS-Selektoren besprochen, mit deren Hilfe bestimmte HTML-Elemente gestylt werden können. Dabei gibt es beispielsweise die Möglichkeit, alle p-Elemente eines HTML-Dokuments zu gestalten. Ebenso kann die class oder id selektiert werden. Durch Kombination von verschiedenen Selektoren lassen sich Elemente noch spezifischer ansprechen, bspw. durch "ul.m" – es werden alle ul-Elemente mit der Klasse "m" selektiert. 
+                </p>
+				<img src="images\grafik_3.jpg" alt="html">
+				<img src="images\grafik_4.png" alt="html_2">
+			</article>
+            
+            <label for="toggle-3"> Comments: </label>
+            <input type="checkbox" id="toggle-3">
+            
+			<article class="comments" id="toggle3">
+				<h3>User123</h3>
+				<time datetime="2013-12-24T20:00:00">Comment posted: 2013-12-24 20:00:00</time>
+				<p>this was not really so easy</p>
+			</article>
+		</section>
+		
+		<form action="meinSkript.php" method="post" class="Postformular">
+			<h2>MAKE A POST:</h2>
+			<label for="title">Titel:</label>
+			<textarea id="title" ></textarea>
+			<label for="post">Post:</label>
+			<textarea id="post" ></textarea><br>
+			<input type="submit">
+			<input type="reset">
+		</form>
+	</body>
+</html>
