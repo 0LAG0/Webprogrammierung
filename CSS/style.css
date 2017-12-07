@@ -117,6 +117,7 @@ fieldset, div {
 }
 
 h4 {
+    color: #D3D3D3;
     font-size: 1.5em;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -230,4 +231,26 @@ section article{
     margin-top: 0.5%;
 }
 
-
+@media screen and (max-width: 768px) {
+    body { 
+        font: 40px sans-serif;
+    }
+    img{
+        width:100%;
+    }
+    img+p {
+        display: block;
+        padding-left: 3%;
+        width: 95%;
+    }
+    [alt="jakob"],[alt="adrian"],[alt="aaron"]  {
+        width: 95%;
+        margin:2%;
+    }
+    li a, [type="submit"], [type="reset"] {
+        padding: 0.2em 0.2em;
+    }
+    header img{
+        height: 30%;
+    }
+}
