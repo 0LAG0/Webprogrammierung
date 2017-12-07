@@ -231,9 +231,16 @@ section article{
     margin-top: 0.5%;
 }
 
+#post{
+    width: 96%;
+    }
+#titel{
+    width: 50%   
+}
+
 @media screen and (max-width: 768px) {
     body { 
-        font: 40px sans-serif;
+        font: 30px sans-serif;
     }
     img{
         width:100%;
@@ -251,6 +258,29 @@ section article{
         padding: 0.2em 0.2em;
     }
     header img{
-        height: 30%;
+        display: block;
+        margin: auto;
+        width: 20%;
+        align-content: center;
+    }
+    header h1{
+        font-size: 1em;
+        text-align: center;
+	    display: block;
+        font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+	    text-shadow: #808080 0px 0px 0px;
+    }
+    textarea{
+        width: 96%;
+    }
+    .info{
+        font-size: 1em;
+    }
+    fieldset input{
+        height: 2em;
+    }
+    h4{
+        
+        text-align: center;
     }
 }
