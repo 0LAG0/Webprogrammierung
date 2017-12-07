@@ -29,12 +29,21 @@
 				<h2>Einführung und Organisatorisches + ein wenig HTML</h2>
 				<p>Wir haben heute Organisatorisches besprochen und ein wenig HTML gemacht.</p>
 			</article>
-			<article class="comments">
-				<h2>Comments:</h2>
+            
+            <label for="toggle-1"> Comments: </label>
+            <input type="checkbox" id="toggle-1">
+            
+			<article class="comments" id="toggle1">
 				<h3>User123</h3>
 				<time datetime="2013-12-24T20:00:00">Comment posted: 2013-12-24 20:00:00</time>
 				<p>this was easy</p>
 			</article>
+			<article class="comments" id="toggle1">
+				<h3>User123</h3>
+				<time datetime="2013-12-24T20:00:00">Comment posted: 2013-12-24 20:00:00</time>
+				<p>this was easy</p>
+			</article>
+            
 			<article class="blogpost">
 				<header>
 					<h2>Vorlesung und Übung Nr.2 Grundlagen Webprogrammierung</h2>
@@ -46,12 +55,16 @@
 				<img src="images\grafik_1.png" alt="html">
 				<img src="images\grafik_2.png" alt="html_2">
 			</article>
-			<article class="comments">
-				<h2>Comments:</h2>
+            
+            <label for="toggle-2"> Comments: </label>
+            <input type="checkbox" id="toggle-2">
+            
+			<article class="comments" id="toggle2">
 				<h3>User123</h3>
 				<time datetime="2013-12-24T20:00:00">Comment posted: 2013-12-24 20:00:00</time>
 				<p>this was not so easy</p>
 			</article>
+            
 			<article class="blogpost">
 				<header>
 					<h2>Vorlesung und Übung Nr.3 Grundlagen Webprogrammierung</h2>
@@ -66,8 +79,11 @@
 				<img src="images\grafik_3.jpg" alt="html">
 				<img src="images\grafik_4.png" alt="html_2">
 			</article>
-			<article class="comments">
-				<h2>Comments:</h2>
+            
+            <label for="toggle-3"> Comments: </label>
+            <input type="checkbox" id="toggle-3">
+            
+			<article class="comments" id="toggle3">
 				<h3>User123</h3>
 				<time datetime="2013-12-24T20:00:00">Comment posted: 2013-12-24 20:00:00</time>
 				<p>this was not really so easy</p>
@@ -77,9 +93,9 @@
 		<form action="meinSkript.php" method="post" class="Postformular">
 			<h2>MAKE A POST:</h2>
 			<label for="title">Titel:</label>
-			<textarea id="title" ></textarea>
+			<textarea id="title" cols="50"></textarea>
 			<label for="post">Post:</label>
-			<textarea id="post" ></textarea><br>
+			<textarea id="post" rows="10" cols="50"></textarea><br>
 			<input type="submit">
 			<input type="reset">
 		</form>
