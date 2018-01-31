@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -231,3 +235,44 @@ section article{
 }
 
 
+/* --- Tic tac toe -- */
+.tictactoe-main {
+	background: black;
+	padding: 0;
+	margin: 10vw;
+	
+	width: 40vw;
+	height: 40vw;
+	
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-template-rows: repeat(3,1fr);
+	
+	grid-row-gap: 3px;
+	grid-column-gap: 3px;
+}
+
+.tictactoe-feld {
+	background: white;
+	padding: 2vw;
+	grid-row-end: span 1;
+	grid-column-end: span 1;
+}
+
+.tictactoe-feld img {
+	width: 100%;
+}
+
+#reset {
+  position: absolute;
+  right: 8vw;
+  bottom: 5vw;
+  font-family: sans-serif;
+  font-size: 1.2em;
+  
+	color: white;
+  border: 2px solid white;
+  padding: 2vw;
+  
+  cursor: pointer;
+}
