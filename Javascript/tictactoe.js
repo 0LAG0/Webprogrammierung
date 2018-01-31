@@ -43,7 +43,7 @@ function changeImage(image) {
 }
 
 function reset(imgs) {
-    for (var i = 0; i < imgs.length; i++) {
+    for (var i = 1; i < imgs.length-1; i++) {
         imgs[i].src = "images/white.png";
         previousImage = "";
     } 
