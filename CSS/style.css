@@ -95,9 +95,7 @@ img+p {
     margin-bottom: 0.5%;
     border: 2px solid black;
 }
-
-
-    
+   
 header img {
 	width: 10%;
     height: auto;
@@ -121,6 +119,7 @@ fieldset, div {
 }
 
 h4 {
+    color: #D3D3D3;
     font-size: 1.5em;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -234,7 +233,6 @@ section article{
     margin-top: 0.5%;
 }
 
-
 /* --- Tic tac toe -- */
 .tictactoe-main {
 	background: black;
@@ -275,4 +273,58 @@ section article{
   padding: 2vw;
   
   cursor: pointer;
+}
+
+#post{
+    width: 96%;
+    }
+#titel{
+    width: 50%   
+}
+
+@media screen and (max-width: 768px) {
+    body { 
+        font: 30px sans-serif;
+    }
+    img{
+        width:100%;
+    }
+    img+p {
+        display: block;
+        padding-left: 3%;
+        width: 95%;
+    }
+    [alt="jakob"],[alt="adrian"],[alt="aaron"]  {
+        width: 95%;
+        margin:2%;
+    }
+    li a, [type="submit"], [type="reset"] {
+        padding: 0.2em 0.2em;
+    }
+    header img{
+        display: block;
+        margin: auto;
+        width: 20%;
+        align-content: center;
+    }
+    header h1{
+        font-size: 1em;
+        text-align: center;
+	    display: block;
+        font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+	    text-shadow: #808080 0px 0px 0px;
+    }
+    textarea{
+        width: 96%;
+    }
+    .info{
+        font-size: 1em;
+    }
+    fieldset input{
+        height: 2em;
+    }
+    h4{
+        
+        text-align: center;
+    }
 }
