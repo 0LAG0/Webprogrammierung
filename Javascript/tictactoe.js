@@ -7,15 +7,15 @@ function init() {
 	document.querySelectorAll("img");
 	
 	
-	var img1 = images[0];
-	var img2 = images[1];
-	var img3 = images[2];
-	var img4 = images[3];
-	var img5 = images[4];
-	var img6 = images[5];
-	var img7 = images[6];
-	var img8 = images[7];
-	var img9 = images[8];
+	var img1 = images[1];
+	var img2 = images[2];
+	var img3 = images[3];
+	var img4 = images[4];
+	var img5 = images[5];
+	var img6 = images[6];
+	var img7 = images[7];
+	var img8 = images[8];
+    var img9 = images[9];
 	
 	img1.addEventListener("click", function(e){changeImage(img1)},false);
 	img2.addEventListener("click", function(e){changeImage(img2)},false);
